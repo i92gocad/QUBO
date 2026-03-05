@@ -1,0 +1,60 @@
+Population 200 bit-flip probability 0.1 and crossover probability 0.3
+PS C:\Users\damia\Desktop\MASTER UIMP\MH\SimpleEvolutionaryAlgorithm-main\SimpleEvolutionaryAlgorithm-main\src\main\java> ^C
+PS C:\Users\damia\Desktop\MASTER UIMP\MH\SimpleEvolutionaryAlgorithm-main\SimpleEvolutionaryAlgorithm-main\src\main\java> ^C
+ and crossover probability 0.3
+-837249.18+-129055.12521487707
+ Population 200 bit-flip probability 0.3 and crossover probability 0.5
+-844718.1+-152959.86809621012
+ Population 200 bit-flip probability 0.3 and crossover probability 0.7
+-823646.28+-124112.76036557078
+ Population 200 bit-flip probability 0.3 and crossover probability 0.9
+-789690.82+-112147.86988091927
+ Population 200 bit-flip probability 0.6 and crossover probability 0.3
+-1011087.42+-117046.27882424799
+ Population 200 bit-flip probability 0.6 and crossover probability 0.5
+-980377.8+-112060.11732155201
+ Population 200 bit-flip probability 0.6 and crossover probability 0.7
+-981124.68+-113003.86039059729
+ Population 200 bit-flip probability 0.6 and crossover probability 0.9
+-1009904.34+-139125.04431361167
+ Population 200 bit-flip probability 0.9 and crossover probability 0.3
+-956243.34+-135263.61876729605
+ Population 200 bit-flip probability 0.9 and crossover probability 0.5
+-981605.4+-131068.72752445565
+ Population 200 bit-flip probability 0.9 and crossover probability 0.7
+-985793.84+-119267.54197942709
+ Population 200 bit-flip probability 0.9 and crossover probability 0.9
+-994636.72+-123926.44872843569
+ Population 500 bit-flip probability 0.1 and crossover probability 0.3
+-864203.04+-122639.56021365373
+ Population 500 bit-flip probability 0.1 and crossover probability 0.5
+-870670.6+-135488.78082247253
+ Population 500 bit-flip probability 0.1 and crossover probability 0.7
+-888101.38+-162840.5777120543
+ Population 500 bit-flip probability 0.1 and crossover probability 0.9
+-860411.9+-128461.15450458166
+ Population 500 bit-flip probability 0.3 and crossover probability 0.3
+-907440.42+-143973.51131358714
+ Population 500 bit-flip probability 0.3 and crossover probability 0.5
+-878987.94+-134061.9675152368
+ Population 500 bit-flip probability 0.3 and crossover probability 0.7
+-921413.52+-140567.9299019858
+ Population 500 bit-flip probability 0.3 and crossover probability 0.9
+-895084.34+-128320.45877686222
+ Population 500 bit-flip probability 0.6 and crossover probability 0.3
+-994200.6+-146086.96362892893
+ Population 500 bit-flip probability 0.6 and crossover probability 0.5
+-962304.22+-124522.81440254874
+ Population 500 bit-flip probability 0.6 and crossover probability 0.7
+-990956.18+-135613.1734133067
+ Population 500 bit-flip probability 0.6 and crossover probability 0.9
+-981457.6+-143705.99147718234
+ Population 500 bit-flip probability 0.9 and crossover probability 0.3
+-982032.94+-133188.92233731903
+ Population 500 bit-flip probability 0.9 and crossover probability 0.5
+-968808.66+-108217.23295217079
+ Population 500 bit-flip probability 0.9 and crossover probability 0.7
+-994185.1+-145346.59027018832
+ Population 500 bit-flip probability 0.9 and crossover probability 0.9
+-996280.8+-114580.14621792032
+PS C:\Users\damia\Desktop\MASTER UIMP\MH\S
