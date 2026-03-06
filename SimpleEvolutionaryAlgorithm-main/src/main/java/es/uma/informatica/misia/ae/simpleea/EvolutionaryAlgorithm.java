@@ -25,6 +25,8 @@ public class EvolutionaryAlgorithm {
 	private Replacement replacement;
 	private Mutation mutation;
 	private Crossover recombination;
+
+	public int NoImprovementCounter;
 	
 	public EvolutionaryAlgorithm(Map<String, Double> parameters, Problem problem, Double crossProb) {
 		configureAlgorithm(parameters, problem);
@@ -48,78 +50,92 @@ public class EvolutionaryAlgorithm {
 	}
 	
 	public Individual run() {
+
 		population = generateInitialPopulation();
 		functionEvaluations = 0;
-		double bestFitness = Double.POSITIVE_INFINITY;
-		int noImprovementCounter = 0;
-		int maxNoImprovement = 250; // Número máximo de evaluaciones sin mejora antes
+		int maxNoImprovement = 200;
+		NoImprovementCounter = 0;
 
-		ArrayList <Double> fitnessHistory = new ArrayList<>();
+		ArrayList<Double> fitnessHistory = new ArrayList<>();
 
+		// Evalúa población inicial y guarda el mejor
 		evaluatePopulation(population);
-		functionEvaluations = 0;
+		fitnessHistory.add(bestSolution.getFitness());
+
 		while (functionEvaluations < maxFunctionEvaluations) {
-			Individual parent1 = selection.selectParent(population);
-			Individual parent2 = selection.selectParent(population);
-			Individual child = recombination.apply(parent1, parent2);
-			if (rnd.nextDouble() > crossProb) {
-				child = parent1;
+
+			functionEvaluations ++;
+			List<Individual> offspring = new ArrayList<>();
+
+			// Generar offspring del mismo tamaño que la población
+			for (int i = 0; i < populationSize; i++) {
+
+				// Selección de padres
+				Individual parent1 = selection.selectParent(population);
+				Individual parent2 = selection.selectParent(population);
+
+				// Crossover
+				Individual child;
+				if (rnd.nextDouble() < crossProb) {
+					child = recombination.apply(parent1, parent2);
+				} else {
+					child = new BinaryString((BinaryString) parent1);	
 			}
 
-			child = mutation.apply(child);
-			evaluateIndividual(child);
-			fitnessHistory.add(child.getFitness());
-			population = replacement.replacement(population, Arrays.asList(child));
+				// Mutación
+				child = mutation.apply(child);
 
-			// double currentFitness = child.getFitness();
-			// if (currentFitness < bestFitness) {
-			// 	bestFitness = currentFitness;
-			// 	noImprovementCounter = 0;
-			// 	bestSolution = child;
-			// } else {
-			// 	noImprovementCounter++;
-			// }		
-			// if (noImprovementCounter >= maxNoImprovement) {
-			// 	//System.out.println("Criterio de parada alcanzado "+functionEvaluations +": no mejora en " + maxNoImprovement + " evaluaciones");
-			// 	System.out.println("Array de fitness: " + fitnessHistory);
-			// 	return bestSolution;
-			// }
+				// Evaluar hijo
+				evaluateIndividual(child);
+
+				offspring.add(child);
+			}
+
+			// Reemplazo
+			population = replacement.replacement(population, offspring);
+
+			// Guardar historial del mejor
+			fitnessHistory.add(bestSolution.getFitness());
+
+			// Criterio de parada por no mejora
+			if (NoImprovementCounter >= maxNoImprovement) {
+				System.out.println("Criterio de parada alcanzado " + functionEvaluations +
+						": no mejora en " + maxNoImprovement + " evaluaciones");
+				System.out.println("Historial del mejor fitness: " + fitnessHistory);
+				return bestSolution;
+			}
 		}
-		
-			//TODO: Descomentar para hacer un reemplazo generacional
-			// List<Individual> offspring = new ArrayList<>();
-			// while (offspring.size() < population.size()*0.8) {
-			// 	Individual parent1 = selection.selectParent(population);
-			// 	Individual parent2 = selection.selectParent(population);
-			// 	Individual child = recombination.apply(parent1, parent2);
-			// 	child = mutation.apply(child);
-			// 	evaluateIndividual(child);
-			// 	offspring.add(child);
-			// }
-			//population = replacement.replacement(population, offspring);
-			
-			//System.out.println("Current best fitness: " + child.getFitness() + " Function evaluations: " + functionEvaluations);
 
-
-			//Descomentar para Criterio de parada de cuando no hay mejora
-
-		System.out.println("Array de fitness: " + fitnessHistory);
+		System.out.println("Historial del mejor fitness: " + fitnessHistory);
 		return bestSolution;
-    }
-
-	private void evaluateIndividual(Individual individual) {
-		double fitness = problem.evaluate(individual);
-		individual.setFitness(fitness);
-		functionEvaluations++;
-		checkIfBest(individual);
 	}
 
 	private void checkIfBest(Individual individual) {
 		if (bestSolution == null || individual.getFitness() < bestSolution.getFitness()) {
 			bestSolution = individual;
-			//System.out.println("New best solution with fitness: " + bestSolution.getFitness() + " Function evaluations: " + functionEvaluations);
-		}
+			NoImprovementCounter = 0; // Reinicia contador solo si hay mejora
+			System.out.println("New best solution with fitness: " + bestSolution.getFitness() + 
+							" Function evaluations: " + functionEvaluations);
+		} 
+		// No incrementamos aquí por cada hijo, lo hacemos al final de cada generación
 	}
+
+	private void evaluateIndividual(Individual individual) {
+		double fitness = problem.evaluate(individual);
+		individual.setFitness(fitness);
+		checkIfBest(individual);
+	}
+
+	// private void checkIfBest(Individual individual) {
+	// 	if (bestSolution == null || individual.getFitness() < bestSolution.getFitness()) {
+	// 		bestSolution = individual;
+	// 		NoImprovementCounter = 0; // Reinicia el contador de no mejora
+	// 		System.out.println("New best solution with fitness: " + bestSolution.getFitness() + " Function evaluations: " + functionEvaluations);
+	// 	}
+	// 	else {
+	// 		NoImprovementCounter++;
+	// 	}
+	// }
 
 	private void evaluatePopulation(List<Individual> population) {
 		for (Individual individual: population) {
