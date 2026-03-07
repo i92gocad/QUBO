@@ -53,7 +53,7 @@ public class EvolutionaryAlgorithm {
 
 		population = generateInitialPopulation();
 		functionEvaluations = 0;
-		int maxNoImprovement = 200;
+		int maxNoImprovement = 150; // Número de evaluaciones sin mejora para el criterio de parada
 		NoImprovementCounter = 0;
 
 		ArrayList<Double> fitnessHistory = new ArrayList<>();
@@ -101,12 +101,12 @@ public class EvolutionaryAlgorithm {
 			if (NoImprovementCounter >= maxNoImprovement) {
 				System.out.println("Criterio de parada alcanzado " + functionEvaluations +
 						": no mejora en " + maxNoImprovement + " evaluaciones");
-				System.out.println("Historial del mejor fitness: " + fitnessHistory);
+				//System.out.println("Historial del mejor fitness: " + fitnessHistory);
 				return bestSolution;
 			}
 		}
 
-		System.out.println("Historial del mejor fitness: " + fitnessHistory);
+		//System.out.println("Historial del mejor fitness: " + fitnessHistory);
 		return bestSolution;
 	}
 
@@ -114,8 +114,8 @@ public class EvolutionaryAlgorithm {
 		if (bestSolution == null || individual.getFitness() < bestSolution.getFitness()) {
 			bestSolution = individual;
 			NoImprovementCounter = 0; // Reinicia contador solo si hay mejora
-			System.out.println("New best solution with fitness: " + bestSolution.getFitness() + 
-							" Function evaluations: " + functionEvaluations);
+			// System.out.println("New best solution with fitness: " + bestSolution.getFitness() + 
+			// 				" Function evaluations: " + functionEvaluations);
 		} 
 		// No incrementamos aquí por cada hijo, lo hacemos al final de cada generación
 	}

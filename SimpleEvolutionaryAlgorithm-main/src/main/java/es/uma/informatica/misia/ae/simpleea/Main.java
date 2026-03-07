@@ -33,11 +33,11 @@ public class Main {
                 for (double crosProb : crosProbs) {
                     System.out.println(" Population " + pop + " bit-flip probability " + prob+  " and crossover probability " + crosProb);
                     List<Double> resultados = new ArrayList<>();
-                    for (int i = 1; i <=1; i++) { 
+                    for (int i = 1; i <=5; i++) { 
                         long randomSeed = System.currentTimeMillis();
                         Map<String, Double> parameters = new HashMap<>();
                         parameters.put(EvolutionaryAlgorithm.POPULATION_SIZE_PARAM, (double) pop);
-                        parameters.put(EvolutionaryAlgorithm.MAX_FUNCTION_EVALUATIONS_PARAM, (double) 500); // modificar en el caso de que se quiera poner un criterio de parada
+                        parameters.put(EvolutionaryAlgorithm.MAX_FUNCTION_EVALUATIONS_PARAM, (double) 5000); // modificar en el caso de que se quiera poner un criterio de parada
                         parameters.put(BitFlipMutation.BIT_FLIP_PROBABILITY_PARAM, prob);
                         parameters.put(EvolutionaryAlgorithm.RANDOM_SEED_PARAM, (double) randomSeed);
 

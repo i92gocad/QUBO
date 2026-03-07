@@ -1,0 +1,1 @@
+ Population 100 bit-flip probability 0.1 and crossover probability 0.3
