@@ -1,8 +1,0 @@
- Population 500 bit-flip probability 0.9 and crossover probability 0.3
--1346469.0666666667+-150834.9506316829
- Population 500 bit-flip probability 0.9 and crossover probability 0.5
--1321750.1333333333+-112855.25853639055
- Population 500 bit-flip probability 0.9 and crossover probability 0.7
--1405614.4+-134656.42390805818
- Population 500 bit-flip probability 0.9 and crossover probability 0.9
--1354030.2666666666+-74292.11520878616
