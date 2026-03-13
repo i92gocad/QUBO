@@ -1,1 +1,224 @@
  Population 100 bit-flip probability 0.1 and crossover probability 0.3
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-704411.4+-145895.6781451733
+ Population 100 bit-flip probability 0.1 and crossover probability 0.5
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-590571.6+-82792.86474715076
+ Population 100 bit-flip probability 0.1 and crossover probability 0.7
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-741958.8+-223438.56482926128
+ Population 100 bit-flip probability 0.1 and crossover probability 0.9
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-643381.6+-107740.38240065792
+ Population 100 bit-flip probability 0.3 and crossover probability 0.3
+Criterio de parada alcanzado 283: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 153: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 152: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 224: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+-960778.2+-178998.74413123686
+ Population 100 bit-flip probability 0.3 and crossover probability 0.5
+Criterio de parada alcanzado 184: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 157: no mejora en 150 evaluaciones
+-776519.8+-68636.75196103033
+ Population 100 bit-flip probability 0.3 and crossover probability 0.7
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 208: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 178: no mejora en 150 evaluaciones
+-778213.0+-90868.86663979033
+ Population 100 bit-flip probability 0.3 and crossover probability 0.9
+Criterio de parada alcanzado 195: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 195: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 199: no mejora en 150 evaluaciones
+-860663.2+-99745.71904076886
+ Population 100 bit-flip probability 0.6 and crossover probability 0.3
+Criterio de parada alcanzado 343: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 171: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 164: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 190: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 419: no mejora en 150 evaluaciones
+-1360963.0+-102195.83446501134
+ Population 100 bit-flip probability 0.6 and crossover probability 0.5
+Criterio de parada alcanzado 460: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 200: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 185: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 166: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 316: no mejora en 150 evaluaciones
+-1345420.6+-118681.86126043019
+ Population 100 bit-flip probability 0.6 and crossover probability 0.7
+Criterio de parada alcanzado 276: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 399: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 245: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 330: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 226: no mejora en 150 evaluaciones
+-1362959.4+-98202.20913319619
+ Population 100 bit-flip probability 0.6 and crossover probability 0.9
+Criterio de parada alcanzado 153: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 482: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 162: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 236: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 219: no mejora en 150 evaluaciones
+-1412192.4+-127425.28098395547
+ Population 100 bit-flip probability 0.9 and crossover probability 0.3
+Criterio de parada alcanzado 224: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 242: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 281: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 158: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 161: no mejora en 150 evaluaciones
+-1186030.0+-139185.7603880512
+ Population 100 bit-flip probability 0.9 and crossover probability 0.5
+Criterio de parada alcanzado 187: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 278: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 199: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 223: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 298: no mejora en 150 evaluaciones
+-1142512.2+-147978.67672526336
+ Population 100 bit-flip probability 0.9 and crossover probability 0.7
+Criterio de parada alcanzado 190: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 184: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 160: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 167: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 418: no mejora en 150 evaluaciones
+-1187254.8+-153704.09349838409
+ Population 100 bit-flip probability 0.9 and crossover probability 0.9
+Criterio de parada alcanzado 431: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 245: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 153: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 153: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 172: no mejora en 150 evaluaciones
+-1137130.4+-94420.9975558403
+ Population 500 bit-flip probability 0.1 and crossover probability 0.3
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-905572.4+-66327.97149800375
+ Population 500 bit-flip probability 0.1 and crossover probability 0.5
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-929623.0+-89666.84338371681
+ Population 500 bit-flip probability 0.1 and crossover probability 0.7
+Criterio de parada alcanzado 152: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-888584.6+-171397.71249418703
+ Population 500 bit-flip probability 0.1 and crossover probability 0.9
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-880389.4+-61764.96620123742
+ Population 500 bit-flip probability 0.3 and crossover probability 0.3
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 177: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+-930990.8+-22782.364103841373
+ Population 500 bit-flip probability 0.3 and crossover probability 0.5
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+-951631.6+-103924.93433935862
+ Population 500 bit-flip probability 0.3 and crossover probability 0.7
+Criterio de parada alcanzado 161: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 153: no mejora en 150 evaluaciones
+-995408.0+-146735.00630865153
+ Population 500 bit-flip probability 0.3 and crossover probability 0.9
+Criterio de parada alcanzado 192: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 150: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 151: no mejora en 150 evaluaciones
+-988319.2+-107846.44371030507
+ Population 500 bit-flip probability 0.6 and crossover probability 0.3
+Criterio de parada alcanzado 296: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 279: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 271: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 330: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 278: no mejora en 150 evaluaciones
+-1565028.6+-111808.6851306284
+ Population 500 bit-flip probability 0.6 and crossover probability 0.5
+Criterio de parada alcanzado 154: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 369: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 301: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 313: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 269: no mejora en 150 evaluaciones
+-1530355.8+-145290.58702531282
+ Population 500 bit-flip probability 0.6 and crossover probability 0.7
+Criterio de parada alcanzado 269: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 309: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 289: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 199: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 594: no mejora en 150 evaluaciones
+-1453656.6+-59160.231752757696
+ Population 500 bit-flip probability 0.6 and crossover probability 0.9
+Criterio de parada alcanzado 251: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 171: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 221: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 237: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 268: no mejora en 150 evaluaciones
+-1472977.2+-44667.57075731789
+ Population 500 bit-flip probability 0.9 and crossover probability 0.3
+Criterio de parada alcanzado 175: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 226: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 187: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 171: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 175: no mejora en 150 evaluaciones
+-1233489.0+-121475.24626688352
+ Population 500 bit-flip probability 0.9 and crossover probability 0.5
+Criterio de parada alcanzado 293: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 320: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 154: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 172: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 155: no mejora en 150 evaluaciones
+-1260524.4+-89868.9261215466
+ Population 500 bit-flip probability 0.9 and crossover probability 0.7
+Criterio de parada alcanzado 353: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 248: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 236: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 412: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 325: no mejora en 150 evaluaciones
+-1266002.0+-122009.49269462602
+ Population 500 bit-flip probability 0.9 and crossover probability 0.9
+Criterio de parada alcanzado 164: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 453: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 153: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 157: no mejora en 150 evaluaciones
+Criterio de parada alcanzado 213: no mejora en 150 evaluaciones
+-1364777.2+-43255.07913482531

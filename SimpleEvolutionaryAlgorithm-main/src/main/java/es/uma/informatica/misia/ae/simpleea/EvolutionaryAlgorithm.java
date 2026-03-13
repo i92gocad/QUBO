@@ -61,12 +61,13 @@ public class EvolutionaryAlgorithm {
 		// Evalúa población inicial y guarda el mejor
 		evaluatePopulation(population);
 		fitnessHistory.add(bestSolution.getFitness());
-
+		double lastBestFitness = bestSolution.getFitness(); // Inicializa el mejor fitness para el criterio de parada
+	
 		while (functionEvaluations < maxFunctionEvaluations) {
-
+			//System.out.println("Function evaluations: " + functionEvaluations + " Best fitness: " + bestSolution.getFitness());
 			functionEvaluations ++;
 			List<Individual> offspring = new ArrayList<>();
-
+			
 			// Generar offspring del mismo tamaño que la población
 			for (int i = 0; i < populationSize; i++) {
 
@@ -93,6 +94,14 @@ public class EvolutionaryAlgorithm {
 
 			// Reemplazo
 			population = replacement.replacement(population, offspring);
+
+			// Incrementar contador de no mejora al final de la generación en el caso de que no haya mejora
+			// if (bestSolution.getFitness() < lastBestFitness) {
+			// 	lastBestFitness = bestSolution.getFitness();
+			// 	NoImprovementCounter = 0; // Reinicia el contador si hay mejora
+			// } else {
+			// 	NoImprovementCounter++;
+			// }
 
 			// Guardar historial del mejor
 			fitnessHistory.add(bestSolution.getFitness());
@@ -124,18 +133,8 @@ public class EvolutionaryAlgorithm {
 		double fitness = problem.evaluate(individual);
 		individual.setFitness(fitness);
 		checkIfBest(individual);
-	}
 
-	// private void checkIfBest(Individual individual) {
-	// 	if (bestSolution == null || individual.getFitness() < bestSolution.getFitness()) {
-	// 		bestSolution = individual;
-	// 		NoImprovementCounter = 0; // Reinicia el contador de no mejora
-	// 		System.out.println("New best solution with fitness: " + bestSolution.getFitness() + " Function evaluations: " + functionEvaluations);
-	// 	}
-	// 	else {
-	// 		NoImprovementCounter++;
-	// 	}
-	// }
+	}
 
 	private void evaluatePopulation(List<Individual> population) {
 		for (Individual individual: population) {
